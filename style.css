@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+  }
+  
+  body{
+    font-family: sans-serif;
+    background: linear-gradient(#232630, #050507);
+    min-height: 100vh;
+  }
+
+  header{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   padding: 14px 0;
+   align-items: center;
+   justify-content: center;
+  }
+
+  header h1{
+    margin-bottom: 14px;
+    background: linear-gradient(#E18700, #FFD43a);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 44px;
+    padding-top: 94px;
+  }
+
+  header h1 span{
+    margin-bottom: 14px;
+    background: linear-gradient(#f5dcc3, #d8cda0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 44px;
+    padding-top: 94px;
+  }
+
+  header span{
+    color: #fffdfd;
+    margin-bottom: 18px;
+  }
+  
+  .links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;   
+    }
+  
+    .link-copa{
+        background-color: rgb(191, 163, 255);
+        max-width: 600px;
+        width: 90%;
+        margin-bottom: 18px;
+        padding: 8px 0;
+        user-select: none;
+        border-radius: 4px;
+        transition: transform 0.4s;             
+         }
+   .link-copa:hover{
+    transform: scale(1.04);
+   }  
+   
+   .link-copaBr{
+    background-color: rgb(255, 241, 111);
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 18px;
+    padding: 8px 0;
+    user-select: none;
+    border-radius: 4px;
+    transition: transform 0.4s;             
+     }
+.link-copaBr:hover{
+transform: scale(1.04);
+}  
+
+.link-form{
+    background-color: rgb(250, 138, 110);
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 18px;
+    padding: 8px 0;
+    user-select: none;
+    border-radius: 4px;
+    transition: transform 0.4s;             
+     }
+.link-form:hover{
+transform: scale(1.04);
+}  
+
+.link-timer{
+    background-color: rgb(86, 124, 248);
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 18px;
+    padding: 8px 0;
+    user-select: none;
+    border-radius: 4px;
+    transition: transform 0.4s;             
+     }
+.link-timer:hover{
+transform: scale(1.04);
+}  
+
+.link-jogoAdv{
+    background-color: rgb(228, 180, 255);
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 18px;
+    padding: 8px 0;
+    user-select: none;
+    border-radius: 4px;
+    transition: transform 0.4s;             
+     }
+.link-JogoAdv:hover{
+transform: scale(1.04);
+}  
+
+.link-siteAndroid{
+    background-color: rgb(140, 252, 136);
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 18px;
+    padding: 8px 0;
+    user-select: none;
+    border-radius: 4px;
+    transition: transform 0.4s;             
+     }
+.link-siteAndroid:hover{
+transform: scale(1.04);
+}  
+   
+.link-verificador{
+    background-color: rgb(102, 245, 250);
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 18px;
+    padding: 8px 0;
+    user-select: none;
+    border-radius: 4px;
+    transition: transform 0.4s;             
+     }
+.link-verificador:hover{
+transform: scale(1.04);
+}  
+
+.link-analisadorN{
+    background-color: rgb(255, 132, 132);
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 18px;
+    padding: 8px 0;
+    user-select: none;
+    border-radius: 4px;
+    transition: transform 0.4s;             
+     }
+.link-analisadorN:hover{
+transform: scale(1.04);
+}  
+
+.link-tabuada{
+    background-color: rgb(182, 252, 185);
+    max-width: 600px;
+    width: 90%;
+    margin-bottom: 18px;
+    padding: 8px 0;
+    user-select: none;
+    border-radius: 4px;
+    transition: transform 0.4s;             
+     }
+.link-tabuada:hover{
+transform: scale(1.04);
+}  
+
+.link-text{
+    font-size: 18px;
+    line-height: 150%;
+    color: #000;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin: 18px 0;
+
+}
+
+.autor{
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 140px 0;
+}
+
+
+button{
+    cursor: pointer;
+  }
+  
+a{
+    text-decoration: none;
+  }
+
+
+  
